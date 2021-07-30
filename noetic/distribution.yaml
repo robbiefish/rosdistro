@@ -6710,6 +6710,23 @@ repositories:
       url: https://github.com/CopterExpress/ros_led.git
       version: master
     status: maintained
+  ros_mscl:
+    release:
+      packages:
+      - mscl_msgs
+      - ros_mscl
+      - ros_mscl_cpp_example
+      - ros_mscl_py_example
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/LORD-MicroStrain/ROS-MSCL-release.git
+      version: 1.1.4-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/LORD-MicroStrain/ROS-MSCL.git
+      version: develop
+    status: developed
   ros_numpy:
     doc:
       type: git
